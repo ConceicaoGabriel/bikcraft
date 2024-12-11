@@ -1,0 +1,243 @@
+/*Css Reset*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Menu header*/
+.header-bg {
+  height: 90px;
+}
+
+.header{
+  width: 100%;
+  justify-content:space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secao a{
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Poppins";
+  position: relative;
+}
+
+.secao a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #fff;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+ }
+
+ .secao a:hover:after{
+  width: 100%;  
+ }
+
+/* main*/
+ .inicial-bg{
+  height: 230px;
+ }
+
+ .h1-p{
+  color: #fff;
+ }
+
+ .inicial{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 50px 0px 0px 0px;
+ }
+
+ .principal-bg{
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  padding: 125px 0px;
+  gap: 120px;
+ }
+
+ .imagem-itens img{
+  height: 336px;
+  width: 560px;
+ }
+
+ .conteudo-itens{
+  height: 336px;
+  width: 560px;
+ }
+
+ .vantagens-itens img{
+  height: 30px;
+  width: 30px;
+ }
+
+ .vantagens{
+  justify-content: space-between;
+  margin-top: 40px;
+ }
+/* detalhes*/
+.container-itens h2::before{
+  content:"";
+  display:block;
+  width: 50px;
+  height: 50px;
+  background: url(/img/dec/top-right.svg);
+  position: absolute;
+  
+  left: 505px;
+}
+.container-itens h2 {
+  position: relative;
+}
+.container-itens h2{
+  padding-top: 10px;
+}
+
+.container-itens h2::after{
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: #f2a50c;
+  top: -1px;
+}
+
+.imagem-itens{
+  position: relative;
+}
+.preco{
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  position: absolute;
+  right: 0.1px;
+  top: 20px;
+  font-family: roboto;
+}
+
+/*sobre*/
+ .sobre{   
+   background-image: linear-gradient(to top, #ffbf00, #f2a50c);
+   border-radius: 4px;
+  height: 50px;
+  width: 160px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 8px;
+  font-family: "Poppins";
+  font-weight:520;
+  font-size: 18px;
+  color: #000;
+ }
+
+ .sobre img{
+  height: 8px;
+ }
+.sobre:hover{
+  background-image: linear-gradient(to top, #ffbf00, #ffbf00);
+}
+
+ /* bg bici*/
+.bg-bicicleta{
+  position: absolute;
+  height: 407px;
+  width: 1190px;
+  margin-top: -36px;
+  background-color: #1111;
+  z-index: -1;
+  right: 130px;
+}
+/*footer*/
+.footer-bg{
+height: 490px;
+background-color: #000;
+justify-content: center;
+}
+
+.footer-container{
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  padding-top: 60px;
+  font-family: Roboto;
+}
+
+.footer-container .logo{
+  width: 137px;
+  height: 31px;
+}
+
+.footer-contato a{
+  color: #b2b2b2;
+}
+
+.footer-contato h3{
+  padding-bottom: 10px;
+}
+
+.footer-contato{
+  flex-direction: column;
+}
+
+.org-contato, .org-local {
+  padding: 10px 0px;
+  flex-direction: column;
+}
+
+.social{
+  padding: 10px 0px 0px 0px;
+}
+
+.footer-informacoes{
+  flex-direction: column;
+}
+
+.informacoes-conteudo{
+  flex-direction: column;
+}
+
+.informacoes-conteudo a{
+  color: #b2b2b2;
+}
+
+.container-logo{
+  flex-direction: column;
+}
+
+.copy0{
+  margin-top: 330px;
+}
+
+.informacoes-conteudo a:hover{
+  color: #fff;
+}
+
+.footer-contato a:hover{
+  color: #fff;
+}
+
+.copy1{
+  display: none;
+}

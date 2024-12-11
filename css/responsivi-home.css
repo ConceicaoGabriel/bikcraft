@@ -1,0 +1,236 @@
+/*nootbook*/
+@media screen and (min-width: 1000px) and (max-width:1400px){
+.main-principal{
+  gap: 100px;
+  padding-left: 15px;
+}
+  .main-principal img{
+  width: 450px;
+  height: 600px;
+  left: -20px;
+}
+  .bicicletas-container img {
+    width: 300px;
+    height: 400px;
+  }
+  /*seguros*/
+.seguro-prata{
+  width:460px ;
+}
+.seguro-ouro{
+  width:460px ;
+}
+  /*seguros*/
+
+  /*declaracao*/
+.bg-declaracao-conteudo p{
+    margin-right: 10px;
+  }
+  /*declaracao*/
+  .h1-p2{
+    right: 250px;
+  }
+  .h1-seguros{
+    right: 290px;
+  }
+  .bicleta img{
+    width: 390px;
+  }
+}
+
+/*componentes*/
+.imagem-componente {
+  width: 340px;
+}
+/*componentes*/
+
+/*footer*/
+.footer-informacoes{
+  padding-right: 40px;
+}
+.container-logo{
+  padding-left: 25px;
+}
+/*footer*/
+/*nootbook*/
+
+
+/*Celular */
+@media screen and (min-width: 350px) and (max-width:500px){
+  /*home*/
+.header-conteudo .imagem-logo img{
+  width: 110px;
+  height: 25px;
+  margin-bottom: 4px;
+}
+.bike-grande{
+  display: none;
+}
+.secao a{
+  font-size: 14px;
+  padding: 5px;
+}
+.secao{
+  gap: 15px;
+}
+.main-principal-conteudo{
+  padding: 20px 0px 40px 17px;
+}
+  /*home*/
+
+  /*escolha a sua*/
+.bicicletas-container{
+  flex-direction: column;
+}
+.escolha-sua .h1-p2{
+  right: 0px;
+  padding-left: 15px;
+}
+.bicicletas-container img{
+  width: 380px;
+}
+  /*escolha a sua*/
+
+  /*componentes*/
+.imagem-componente{
+  display: none;
+}
+.componentes-conteudo{
+  max-width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.componentes-conteudo-esp p{
+  font-size: 14px;
+}
+.componentes-conteudo-esp{
+  flex-direction: column;
+  height: 100%;
+}
+.componentes-conteudo-esp div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.componentes-conteudo h1,span{
+  font-size: 45px;
+  line-height: 40px;
+}
+
+  /*componentes*/
+
+  /*parceiros*/
+.container-h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+ 
+ .h1-parceiro, .h1-p2, .parceiros{
+   right: 0px;    
+   text-align: center; 
+   font-size: 55px;
+   margin: 0px;
+  }
+
+  .ul-parceiros img{
+    height: 16px;
+    width: 90px;
+  }
+  /*parceiros*/
+
+  /*declaracao*/
+  .declaracao{
+    flex-direction: column;
+    height: 100%;
+  }
+
+.bg-declaracao-conteudo{
+  width: 100%;
+}
+
+.bg-declaracao-conteudo p{
+  margin-top: 20px;
+}
+
+.quote1, .quote2{
+  margin-top: 35px;
+}
+.quote1{
+  top: 90px;
+  right: 60px;
+}
+  /*declaracao*/
+
+  /*seguros*/
+  .conteudo-seguro{
+    flex-direction: column;
+    gap: 100px;
+  }
+  .seguro-prata{
+    width: 100%;
+  }
+  .seguro-ouro{
+    width: 100%;
+  }
+  .seguros-home{
+    height: 100%;
+    padding: 50px 0px 50px 0px;
+  }
+  .h1-seguros{
+    right: 0px;
+  }
+
+.inicio-seguros h2{
+  margin-right: 50px;
+}
+.inicio-seguros h3{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.inicio-seguros2-ouro h3{
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+  /*seguros*/
+
+  /*footer*/
+    .footer-container{
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .copy0{
+      display: none;
+    }
+    .copy1{
+      display: block;
+      margin-top: 20px;
+      padding-bottom: 10px;
+    }
+    .container-logo {
+      padding: 0px 90px;
+    }
+    .footer-bg{
+      width: 100%;
+      height: 100%;
+    }
+  
+    .footer-informacoes, .footer-contato{
+      font-size: 16px;
+    }
+    .footer-contato{
+      padding-left: 18px;
+  }
+}
+  /*footer*/
+/*Celular*/
+

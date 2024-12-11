@@ -1,0 +1,180 @@
+/*not*/
+@media screen and (min-width:1000px) and (max-width:1200px){
+/*voce seguro*/
+.seguros-conteudo{
+  width: 100%;
+  padding-left: 18px;
+}
+/*vantagens*/
+.vantagens-conteudo{
+  padding-left: 60px;
+}
+
+/*perguntas*/
+details{
+  width: 100%;
+}
+.perguntas-conteudo{
+  padding-right: 370px;
+}
+
+
+/*footer*/
+.container-logo{
+  padding-left: 18px;
+}
+}
+
+/*macbook*/
+@media screen and (min-width:800px) and (max-width:999px){
+  .vantagens-conteudo{
+    width: 100%;
+  }
+  .vantagens-itens{
+    width: 100%;
+  }
+  .h1-seguros::before {
+    left: 850px;
+    top: 20px;
+  }
+
+  .seguro-prata{
+    width: 400px;
+  } 
+
+  .seguro-ouro{
+    width: 500px;
+  }
+
+  details{
+    width: 100%;
+  }
+
+  .img-summary{
+    left: 700px;
+  }
+
+  .seguros-conteudo{
+    margin-right: 70px ;
+    padding-left: 50px;
+    padding-right: 0px;
+  }
+
+  .vantagens-conteudo{
+    padding-left: 20px;
+  }
+
+  .vantagens-itens{
+    gap: 5px 200px;
+  }
+
+  .perguntas-conteudo{
+    padding-right: 160px;
+  }
+  .container-logo{
+    padding-left: 23px;
+  }
+
+}
+
+@media screen and (min-width:350px) and (max-width:500px){
+  /*home*/
+  .seguros-container-bg{
+    height: 100%;
+  }
+  .h1-seguros::before {
+  display: none;
+  }
+  .seguros-conteudo{
+    padding: 0px;
+  }
+
+  .conteudo-seguro{
+    flex-direction: column;
+    gap: 100px;
+  }
+  .seguro-prata{
+    width: 100%;
+  }
+  .seguro-ouro{
+    width: 100%;
+  }
+  .h1-seguros{
+    right: 0px;
+  }
+
+.inicio-seguros h2{
+  margin-right: 50px;
+}
+.inicio-seguros h3{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.inicio-seguros2-ouro h3{
+  font-size: 20px;
+  margin-top: 5px;
+}
+  /*vantagem*/
+  .vantagens-conteudo-bg{
+    height: 100%;
+  }
+  .vantagens-itens{
+    width: 100%;
+    justify-content: center;
+  }
+  .vantagens-conteudo{
+    margin-right: 0px;
+
+  }
+  .h1-vantagens{
+    text-align: center;
+  }
+
+  /*pergunta*/
+  .perguntas-container{
+    height: 100%;
+  }
+  details{
+    width: 70%;
+    padding: 0px 30px 0px 30px;
+  }
+  summary{
+    width: 70%;
+  }
+  .img-summary{
+  display: none;
+  }
+.perguntas-h1{
+  text-align: center;
+}
+
+  /*footer*/
+  .footer-container{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .copy0{
+    display: none;
+  }
+  .copy1{
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  .container-logo {
+    padding: 0px 90px;
+  }
+  .footer-bg{
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-informacoes, .footer-contato{
+    font-size: 16px;
+  }
+  .footer-contato{
+    padding-left: 18px;
+}
+}
+

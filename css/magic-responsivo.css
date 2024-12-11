@@ -1,0 +1,257 @@
+@media screen and (min-width:1000px) and (max-width:1150px){
+  .bicicleta-conteudo{
+    padding-left: 40px;
+  }
+  .bicicleta-bg{
+    height:  1350px;
+  }
+  .bicicletas-img2{
+    flex-direction: column;
+  }
+  .bicicletas-img2 img{
+    width:305px;
+    padding-left: 20px;
+  }
+  .bicicletas-container img{
+    width: 450px;
+  }
+  .img-pedale img{
+    width: 400px;
+  }
+  .escolha-sua h1{
+    padding-left: 250px;
+  }
+  .container-logo{
+    padding-left: 40px;
+  }
+  .pedale-conteudo{
+    width: 500px;
+    padding-top: 100px;
+  }
+  .pedale-conteudo p{
+    width: 500px;
+  }
+  .pedale-conteudo h1{
+    font-size: 32px;
+  }
+  .pedale-conteudo .ponto{
+   font-size: 32px;
+  }
+}
+
+
+@media screen and (min-width:800px) and (max-width:999px){
+  /*topo*/
+  .bicicletas-img2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .descricao-bicicleta .p-inicial1{
+    width: 400px;
+  }
+  .descricao-2{
+    width: 400px;
+  }
+  span{
+    width: 100px;
+  }
+  .info-bicicleta{
+    width: 400px;
+    height: 550px;  
+    padding: 35px;
+  }
+  .info-bicicleta-conteudo{
+    gap: 60px;
+  }
+  .motor,.velocidade,.rastreador,.fibra{
+    width: 105px;
+  }
+  .motor p,.velocidade p,.rastreador p,.fibra p{
+    width: 105px;
+  }
+  .ficha-bicicleta{
+    width: 400px;
+  }
+  .bicicleta-bg{
+    height: 1600px;
+  }
+  .nimbus{
+    height: 300px;
+    width: 450px;
+  }
+  .bicicleta-conteudo{
+    right: 0;
+    padding: 20px;
+  }
+  /*topo*/
+  
+
+  /*escolha a sua*/
+  .h1-p2{
+    right: 0px;
+  }
+  .bicicletas-container img{
+    height: 250px;
+    width: 350px;
+  }
+  /*escolha a sua*/
+
+  /*pedale*/
+  .pedale-conteudo{
+    width: 400px;
+    padding-top: 100px;
+  }
+  .pedale-conteudo p {
+    width: 400px;
+  }
+  .pedale-conteudo h1,.ponto{
+    font-size: 32px;
+  }
+  .img-pedale img {
+    width: 300px;
+  }
+  /*pedale*/
+
+  /*footer*/
+  .container-logo{
+    padding-left: 30px;
+  }
+  /*footer*/
+  
+}
+
+
+@media screen and (min-width:350px) and (max-width:500px){
+  /*menu*/
+  .secao{
+   display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.secao a{
+    font-size: 14px;
+}
+.imagem-logo img{
+    height: 20px;
+}
+  /*menu*/
+
+  /*header*/
+  .bicicleta-conteudo{
+    flex-direction: column;
+    width: 100%;
+    right: 0px;  
+  }
+  .bicicleta-bg{
+    height: 2300px;
+  }
+  .bicicletas-img2 img{
+    display: none;
+  }
+ 
+  .topo::before{
+    display: none;
+  }
+  .topo h1,.p-topo{
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+  }
+  .nimbus{
+    height: 100%;
+    width:100%;
+  }
+  .img-biciceta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .descricao-bicicleta .p-inicial1{
+    width: 100%;
+    text-align: center;
+  }
+  span{
+    width: 100px;
+    text-align: center;
+  }
+  .info-bicicleta,.ficha-bicicleta{
+    width: 100%;
+    height: 100%;
+  }
+
+  /*header*/
+
+  /*escolha a sua*/
+  .escolha-sua h1{
+   right: 0px;
+   font-size: 40px;
+}
+  .bicicletas-container{
+    flex-direction: column;
+  }
+  .bicicletas-container img{
+    width: 320px;
+  }
+  .p-inicial2{
+    right: 0;
+  }
+  /*escolha a sua*/
+
+  /*pedale*/
+  .pedale{
+    gap: 0px;
+  }
+  .img-pedale img{
+    display: none;
+  }
+  .pedale-conteudo h1,.ponto{
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+  }
+  .pedale-conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .pedale-conteudo p{
+    width: 100%;
+    text-align: center;
+  }
+
+  /*pedale*/
+
+  /*footer*/
+  .footer-container{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .copy0{
+    display: none;
+  }
+  .copy1{
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  .container-logo {
+    padding: 0px 90px;
+  }
+  .footer-bg{
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-informacoes, .footer-contato{
+    font-size: 16px;
+  }
+  .footer-contato{
+    padding-left: 18px;
+}
+  /*footer*/
+}

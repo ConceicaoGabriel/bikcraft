@@ -1,0 +1,254 @@
+/*Notebook normal*/
+@media screen and (min-width: 1271px) and (max-width:1440px){
+  .bg-bicicleta{
+    width: 1000px;
+    right: 45px;
+  }
+  .imagem-itens img{
+    height: 300px;
+    width: 500px;
+    
+   }
+}
+/* notebook pequeno*/
+@media screen and (min-width: 1100px) and (max-width:1270px){
+  .bg-bicicleta{
+    right: 0px;
+    width: 100%;
+  }
+  .imagem-itens img{
+    height: 280px;
+    width: 450px;
+   }
+   .conteudo-itens{
+    height: 336px;
+    width: 360px;
+   }
+   .container-itens h2::before{
+    position: absolute;
+    left: 330px;
+    bottom: 20px;
+  }
+  .inicial{
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  .footer-container{
+    justify-content: space-around;
+  }
+
+}
+
+/*Celular grande*/
+@media screen and (min-width: 375px) and (max-width:500px){
+ /*header*/
+  .header-bg{
+    width: 100%;
+    height: 100%;
+  }
+  .header{
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+  }
+  .header img {
+    width:100px;
+    height: 24px;
+ 
+  }
+  .secao {
+    gap:10px;
+  }
+  .secao a{
+    font-size: 16px;
+    gap: 20px;
+    padding: 5px 15px 5px 0px;
+    
+  }
+/*main*/
+  .inicial-bg{
+    height: 300px;
+  }
+  .inicial{
+    margin-left: 17px;
+  }
+  
+  .container-itens{
+    flex-direction: column;
+    gap: 70px;
+  }
+  .imagem-itens img{
+    width: 100%;
+    height: 330px;
+  }
+  .conteudo-itens{
+    width: 100%;
+  }
+
+  .bg-bicicleta{
+    right: 0px;
+    height: 830px;
+    width: 100%;
+  }
+
+  /*detalhe bolinha*/
+  .container-itens h2::before{
+    display: none;
+  }
+  /*centralização letra*/
+  .conteudo-itens h2,.p-conteudo{
+    text-align: center;
+  }
+  /*detalhe quadradinho*/
+  .container-itens h2::after{
+    width: 10px;
+    height: 10px;
+    top: -5px;
+    left: 60px;
+  }
+  /*vantagens*/
+  .vantagens{
+    justify-content: space-around;
+  }
+
+  /*sobre*/
+  .sobre {
+    margin: 68px 0px 0px 0px;
+  }
+  /*footer*/
+  .footer-container{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .copy0{
+    display: none;
+  }
+  .copy1{
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  .container-logo {
+    padding: 0px 90px;
+  }
+  .footer-bg{
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-informacoes, .footer-contato{
+    font-size: 16px;
+  }
+}
+
+/*Celular pequeno*/
+@media screen and (min-width: 350px) and (max-width:374px){
+  /*header*/
+  .header-bg{
+    width: 100%;
+    height: 100%;
+  }
+  .header{
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+  }
+
+  .header img {
+    width:100px;
+    height: 24px;
+  }
+  .secao {
+    gap:10px;
+  }
+  .secao a{
+    font-size: 16px;
+    gap: 20px;
+    padding: 5px 15px 5px 0px;
+    
+  }
+/*main*/
+  .inicial-bg{
+    height: 350px;
+  }
+  .inicial{
+    margin-left: 17px;
+  }
+  
+  .container-itens{
+    flex-direction: column;
+    gap: 70px;
+  }
+  .imagem-itens img{
+    width: 100%;
+    height: 330px;
+  }
+  .conteudo-itens{
+    width: 100%;
+  }
+  .conteudo-itens .p-conteudo{
+    font-size: 14px;
+  }
+
+  .bg-bicicleta{
+    right: 0px;
+    height: 830px;
+    width: 100%;
+  }
+
+  /*detalhe bolinha*/
+  .container-itens h2::before{
+    display: none;
+  }
+  /*centralização letra*/
+  .conteudo-itens h2,.p-conteudo{
+    text-align: center;
+  }
+  /*detalhe quadradinho*/
+  .container-itens h2::after{
+    width: 10px;
+    height: 10px;
+    top: -5px;
+    left: 60px;
+  }
+  /*vantagens*/
+  .vantagens{
+    justify-content: space-around;
+  }
+
+  /*sobre*/
+  .sobre {
+    margin: 68px 0px 0px 0px;
+    width: 130px;
+  }
+  .sobre p{
+    font-size: 15px;
+  }
+  /*footer*/
+  .footer-container{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .copy0{
+    display: none;
+  }
+  .copy1{
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  .container-logo {
+    padding: 0px 90px;
+  }
+  .footer-bg{
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-informacoes, .footer-contato{
+    font-size: 14px;
+  }
+}
