@@ -57,24 +57,53 @@
 
 /*Celular */
 @media screen and (min-width: 350px) and (max-width:500px){
-  /*home*/
-.header-conteudo .imagem-logo img{
-  width: 110px;
-  height: 25px;
-  margin-bottom: 4px;
+
+ /*header*/
+ .header-bg{
+  width: 100%;
+  height: 100%;
 }
-.bike-grande{
-  display: none;
+.header{
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: center;
+}
+
+.header img {
+  width:100px;
+  height: 24px;
+}
+.secao {
+  gap:10px;
 }
 .secao a{
-  font-size: 14px;
-  padding: 5px;
+  font-size: 16px;
+  gap: 20px;
+  padding: 5px 15px 5px 0px;
 }
-.secao{
-  gap: 15px;
+.bike-grande img{
+  display: none;
 }
 .main-principal-conteudo{
-  padding: 20px 0px 40px 17px;
+  width: 100%;
+}
+
+.main-principal-conteudo p,h1{
+  font-size: 20px;
+  text-align: center;
+}
+
+.main-principal-conteudo h1{
+  width: 100%;
+}
+
+.main-principal-conteudo .botao{
+ margin-left: 65px;
+}
+
+.main-principal{
+  height: 600px;
+  gap: 0px;
 }
   /*home*/
 
@@ -87,7 +116,10 @@
   padding-left: 15px;
 }
 .bicicletas-container img{
-  width: 380px;
+  width: 330px;
+}
+.bicicletas-container p{
+  width: 100px;
 }
   /*escolha a sua*/
 
@@ -118,8 +150,15 @@
   align-items: center;
 }
 .componentes-conteudo h1,span{
-  font-size: 45px;
+  font-size: 35px;
   line-height: 40px;
+}
+.componentes-conteudo-esp p{
+  width: 340px;
+}
+
+.componentes-conteudo .p-inicial1, .h1-p{
+  width: 330px;
 }
 
   /*componentes*/
@@ -141,8 +180,8 @@
   }
 
   .ul-parceiros img{
-    height: 16px;
-    width: 90px;
+    height: 18px;
+    width: 60px;
   }
   /*parceiros*/
 
