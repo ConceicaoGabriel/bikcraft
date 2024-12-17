@@ -15,13 +15,12 @@ img{
 
 /*css reset*/
 
-/*header*/
-
-.header-container {
+/*Menu header*/
+.header-bg {
   height: 90px;
-  width: 100%;
 }
-.header-conteudo{
+
+.header{
   width: 100%;
   justify-content:space-between;
   align-items: center;
@@ -49,10 +48,8 @@ img{
  }
 
  .secao a:hover:after{
-   width: 100%;  
-  }
-
-/*header*/
+  width: 100%;  
+ }
 
  /*Main*/
 
