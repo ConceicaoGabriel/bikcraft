@@ -79,6 +79,33 @@ details{
 
 @media screen and (min-width:350px) and (max-width:500px){
   /*home*/
+  /*header*/
+  .header-bg{
+    width: 100%;
+    height: 100%;
+  }
+  .header{
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+  }
+
+  .header img {
+    width:100px;
+    height: 24px;
+  }
+  .secao {
+    gap:10px;
+  }
+  .secao a{
+    font-size: 16px;
+    gap: 20px;
+    padding: 5px 15px 5px 0px;
+    
+  }
+
+
+
   .seguros-container-bg{
     height: 100%;
   }
@@ -88,7 +115,9 @@ details{
   .seguros-conteudo{
     padding: 0px;
   }
-
+  .h2-seguros,.h1-seguros{
+    text-align: center;
+  }
   .conteudo-seguro{
     flex-direction: column;
     gap: 100px;
@@ -124,9 +153,12 @@ details{
   }
   .vantagens-conteudo{
     margin-right: 0px;
-
   }
-  .h1-vantagens{
+  .vantagens-conteudo h1{
+    font-size: 50px;
+  }
+
+  .h1-vantagens {
     text-align: center;
   }
 
@@ -146,6 +178,9 @@ details{
   }
 .perguntas-h1{
   text-align: center;
+}
+.perguntas-conteudo h1{
+  font-size: 40px;
 }
 
   /*footer*/
